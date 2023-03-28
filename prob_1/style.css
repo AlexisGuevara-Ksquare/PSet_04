@@ -1,0 +1,155 @@
+
+body {
+    background-color: #0c1223;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 0;
+    /* margin: 0; */
+    padding: 0;
+}
+
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+/* Left side */
+.upInfo {
+    width: 250px;
+    height: 310px;
+    background-color: #5647ea;
+    border-radius: 10px;
+    position: absolute;
+}
+
+/* Image configuration */
+.imgAvatar {
+    margin: 0;
+    padding-top: 35px;
+    padding-left: 35px;
+}
+
+img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+/* Info light color */
+.profileText {
+    font-size: 12px;
+    margin-top: 22px;
+    margin-bottom: 10px;
+}
+
+.profileName {
+    font-size: 42px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.profileText, .profileName {
+    padding-left: 20px;
+}
+
+.downInfo {
+    width: 250px;
+    height: 460px;
+    background-color: #1d214a;
+    border-radius: 10px;
+}
+
+.downInfo-Text {
+    padding-top: 310px;
+    padding-left: 20px;
+}
+
+.daily, .monthly {
+    color: #454784;
+}
+
+/* Righ Side */
+
+.cardContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 2rem;
+    column-gap: 1rem;
+}
+
+.mainCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card Design */
+.colorSection {
+    width: 250px;
+    height: 210px;
+    background-color: #ff8b65;
+    border-radius: 10px;
+}
+
+.icons {
+    padding-left: 160px;
+}
+
+.play > .colorSection {
+    background-color: #57c3e6;
+}
+
+.study > .colorSection {
+    background-color: #fe5e7c;
+}
+
+.exercise > .colorSection {
+    background-color: #4acf82;
+}
+
+.social > .colorSection {
+    background-color: #7234d0;
+}
+
+.selfCare > .colorSection {
+    background-color: #f0c65b;
+}
+
+.infoSection {
+    width: 250px;
+    height: 180px;
+    background-color: #1d214a;
+    position: absolute;
+    margin-top: 7vh;
+    border-radius: 10px;
+}
+/* 
+.downInfo {
+    
+} */
+
+/* Card info */
+.cardTitle {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.cardTime {
+    font-size: 42px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.lastTime {
+    font-size: 12px;
+}
+
+.cardTitle, .cardTime, .lastTime {
+    padding-left: 20px;
+}
+
+.line1 {
+    display: inline-block;
+}
