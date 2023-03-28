@@ -93,27 +93,29 @@ img {
     border-radius: 10px;
 }
 
+/* Positions of icons */
 .icons {
     padding-left: 160px;
 }
 
-.play > .colorSection {
+/* Color fo upper card */
+.Play > .colorSection {
     background-color: #57c3e6;
 }
 
-.study > .colorSection {
+.Study > .colorSection {
     background-color: #fe5e7c;
 }
 
-.exercise > .colorSection {
+.Exercise > .colorSection {
     background-color: #4acf82;
 }
 
-.social > .colorSection {
+.Social > .colorSection {
     background-color: #7234d0;
 }
 
-.selfCare > .colorSection {
+.SelfCare > .colorSection {
     background-color: #f0c65b;
 }
 
@@ -125,10 +127,6 @@ img {
     margin-top: 7vh;
     border-radius: 10px;
 }
-/* 
-.downInfo {
-    
-} */
 
 /* Card info */
 .cardTitle {
@@ -136,6 +134,7 @@ img {
     margin-top: 20px;
 }
 
+/* Font sizes */
 .cardTime {
     font-size: 42px;
     margin-top: 18px;
