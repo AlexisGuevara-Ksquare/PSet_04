@@ -67,10 +67,9 @@ img {
     padding-left: 20px;
 }
 
-.daily, .monthly {
-    color: #454784;
+.daily, .weekly, .monthly {
+    cursor: pointer;
 }
-
 /* Righ Side */
 
 .cardContainer {
